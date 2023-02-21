@@ -35,7 +35,9 @@ Did this, but will not share any more than that :)
  
 ### Installed AWS CLI
  
- I installed the AWS CLI into Gitpod usint the [AWS Documentation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html), using the linux instructions. 
+ I installed the AWS CLI into Gitpod usint the [AWS Documentation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html), using the linux instructions. You can validate this by my [.gitpod.yml](https://github.com/rembaumann/aws-bootcamp-cruddur-2023/blob/main/.gitpod.yml) file in the root directory of this repo, as well as this image of Gitpod
+ 
+ ![AWS CLI](https://github.com/rembaumann/aws-bootcamp-cruddur-2023/blob/caa11952bf50714ec33ef7a188f4411d1c1aeba1/journal/images/AWS%20CLI.png)
  
 ### Create a Billing Alarm
 ![Billing Alarm](https://github.com/rembaumann/aws-bootcamp-cruddur-2023/blob/a5b945a494130e4dd5b65d304ef86c6a3d90f799/journal/images/Billing%20Alarm.png)
