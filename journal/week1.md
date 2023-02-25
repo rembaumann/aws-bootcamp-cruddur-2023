@@ -18,6 +18,11 @@ What I learned
 - Made sure no cloudtrail trails were set up
 
 ### Watched Ashish's Week 1 - Container Security Considerations	
+What I learned:
+- Snyk: container image vulnerability scanning. Has open source, free version for personal use 
+- Secrets Manager
+- Hashicopr Vault: 
+- AWS Inspector: vulnerability scanner within AWS. Scans containers, instances, lambdas
 
 ### Containerize Application (Dockerfiles, Docker Compose)	
 
