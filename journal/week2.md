@@ -1,1 +1,16 @@
 # Week 2 — Distributed Tracing
+
+## Required Homework
+
+### Watch Week 2 Live-Stream Video	
+### Watch Chirag Week 2 - Spending Considerations (Coming Soon)	
+### Watched Ashish's Week 2 - Observability Security Considerations	
+### Instrument Honeycomb with OTEL	
+### Instrument AWS X-Ray	
+Changes made to DockerCompose, app.py, and requirements.txt
+
+![X-Ray](https://github.com/rembaumann/aws-bootcamp-cruddur-2023/blob/1f3ba16ec71e47d6040e5f58607e9f230cc9331b/journal/images/X-Ray.png)
+
+Image of the X-Ray logs in the AWS Console
+### Configure custom logger to send to CloudWatch Logs	
+### Integrate Rollbar and capture and error
