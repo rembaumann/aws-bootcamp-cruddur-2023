@@ -77,8 +77,8 @@ def init_rollbar():
     """init rollbar module"""
     rollbar.init(
         # access token
-        rollbar_access_token,
-        # '9ef4247e1f15440e90be1f2055bb6894', # this was used for debugging
+        # rollbar_access_token,
+        '6bc1c0de058448258008cb7ddf9c129c',
         # environment name
         'production',
         # server root directory, makes tracebacks prettier
@@ -107,7 +107,7 @@ cors = CORS(
 #     LOGGER.error('%s %s %s %s %s %s', timestamp, request.remote_addr, request.method, request.scheme, request.full_path, response.status)
 #     return response
 
-# Rollbar test
+# Rollbar test endpoint
 @app.route('/rollbar/test')
 def rollbar_test():
     rollbar.report_message('Hello World!', 'warning')
