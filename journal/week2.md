@@ -3,9 +3,19 @@
 ## Required Homework
 
 ### Watch Week 2 Live-Stream Video	
-### Watch Chirag Week 2 - Spending Considerations (Coming Soon)	
+
+
+### Watch Chirag Week 2 - Spending Considerations
+
+
 ### Watched Ashish's Week 2 - Observability Security Considerations	
+
+
 ### Instrument Honeycomb with OTEL	
+
+
+![Honeycomb](https://github.com/rembaumann/aws-bootcamp-cruddur-2023/blob/36af2debeebf34db580bd767d06a91414a9da2ed/journal/images/Honeycomb.png)
+
 ### Instrument AWS X-Ray	
 Changes made to DockerCompose, app.py, and requirements.txt
 
@@ -18,3 +28,9 @@ Image of the X-Ray logs in the AWS Console
 Cloudwatch was also implemented to send logs to a "Crudder" log group. We implemented a log on the "home_activities" page to test sending logs. These are commented out in the current code to reduce costs.
 
 ### Integrate Rollbar and capture and error
+
+
+![Rollbar](https://github.com/rembaumann/aws-bootcamp-cruddur-2023/blob/36af2debeebf34db580bd767d06a91414a9da2ed/journal/images/Rollbar.png)
+
+
+![Rollbar Error](https://github.com/rembaumann/aws-bootcamp-cruddur-2023/blob/36af2debeebf34db580bd767d06a91414a9da2ed/journal/images/Rollbar%20Error.png)
