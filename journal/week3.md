@@ -3,7 +3,10 @@
 ## Required Homework 
 
 ### Watched Ashish's Week 3 - Decenteralized Authentication	
+Complete 
 ### Watch Chirag Week 3 - Spending Considerations
+Not posted 
+
 ### Setup Cognito User Pool	
 ### Implement Custom Signin Page	
 ### Implement Custom Signup Page	
