@@ -27,7 +27,7 @@ class HomeActivities:
           # this will return a tuple
           # the first field being the data
           json = cur.fetchone()
-      print("---------")
+      print("------------------------")
       print(json)
-      print("---------")
-      # return json[0]
+      print("-------------------------")
+      return json[0]
