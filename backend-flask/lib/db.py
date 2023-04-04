@@ -18,6 +18,7 @@ def query_wrap_array(template):
   return sql
 
 connection_url = os.getenv("CONNECTION_URL")
+# connection_url = "postgresql://postgres:password@localhost:5432/cruddur"
 print("------Connection URL-------")
 print(connection_url)
 pool = ConnectionPool(connection_url)
