@@ -18,4 +18,6 @@ def query_wrap_array(template):
   return sql
 
 connection_url = os.getenv("CONNECTION_URL")
+print("------Connection URL-------")
+print(connection_url)
 pool = ConnectionPool(connection_url)
