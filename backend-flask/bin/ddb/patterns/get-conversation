@@ -16,7 +16,7 @@ if len(sys.argv) == 2:
 dynamodb = boto3.client('dynamodb',**attrs)
 table_name = 'cruddur-messages'
 
-message_group_uuid = "5ae290ed-55d1-47a0-bc6d-fe2bc2700399"
+message_group_uuid = "365bea1e-203c-11ee-be56-0242ac120002"
 
 year = datetime.datetime.now().year
 
