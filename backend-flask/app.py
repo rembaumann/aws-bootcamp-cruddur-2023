@@ -147,21 +147,23 @@ def data_message_groups():
 
 @app.route("/api/messages/<string:message_group_uuid>", methods=['GET'])
 def data_messages(message_group_uuid):
-
   access_token = extract_access_token(request.headers)
   try:
     claims = cognito_jwt_token.verify(access_token)
+    # authenicatied request
+    app.logger.debug("authenicated")
+    app.logger.debug(claims)
     cognito_user_id = claims['sub']
     model = Messages.run(
-      message_group_uuid=message_group_uuid,
-      cognito_user_id=cognito_user_id
-    )
+        cognito_user_id=cognito_user_id,
+        message_group_uuid=message_group_uuid
+      )
     if model['errors'] is not None:
       return model['errors'], 422
     else:
       return model['data'], 200
-    return
   except TokenVerifyError as e:
+    # unauthenicatied request
     app.logger.debug(e)
     return {}, 401
 
